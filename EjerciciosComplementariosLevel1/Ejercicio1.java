@@ -9,6 +9,6 @@ public class Ejercicio1 {
         scan.close();
     }
     public static String saludar(String nombre) {
-        return "HOLA" + nombre;
+        return "HOLA " + nombre;
     }
 }
