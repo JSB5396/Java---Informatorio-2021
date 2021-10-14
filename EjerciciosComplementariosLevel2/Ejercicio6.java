@@ -12,13 +12,14 @@ public class Ejercicio6 {
         empleados.forEach(System.out::println);
         
         Map<Integer,Integer> datos = new HashMap<Integer, Integer>();
-        datos.put(empleado1.getdni(), empleado1.gethorasTrabajadas()*empleado1.getvalorPorHora());
-        datos.put(empleado2.getdni(), empleado2.gethorasTrabajadas()*empleado2.getvalorPorHora());
-        datos.put(empleado3.getdni(), empleado3.gethorasTrabajadas()*empleado3.getvalorPorHora());
-        datos.put(empleado4.getdni(), empleado4.gethorasTrabajadas()*empleado4.getvalorPorHora());
+        datos.put(empleado1.getdni(), empleado1.sueldoCalculado());
+        datos.put(empleado2.getdni(), empleado2.sueldoCalculado());
+        datos.put(empleado3.getdni(), empleado3.sueldoCalculado());
+        datos.put(empleado4.getdni(), empleado4.sueldoCalculado());
         System.out.println("\n" + "Datos pedidos: ");
         for (Map.Entry<Integer, Integer> entry : datos.entrySet()) {
-           System.out.println("DNI: " + entry.getKey() + " - Sueldo mensual calculado: $ " + entry.getValue());
+           System.out.println("DNI: " + entry.getKey() +
+            " - Sueldo mensual calculado: $ " + entry.getValue());
         }
     }
     public static class Empleado {
@@ -41,11 +42,8 @@ public class Ejercicio6 {
         public Integer getdni() {
             return dni;
         }
-        public Integer gethorasTrabajadas() {
-            return horasTrabajadas;
-        }
-        public Integer getvalorPorHora() {
-            return valorPorHora;
+        public Integer sueldoCalculado(){
+            return horasTrabajadas * valorPorHora;
         }
     }
 }
