@@ -4,7 +4,6 @@ public class Ejercicio1 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Por favor coloque su nombre de usuario: "); 
         String nombre = scan.nextLine();
-        
         System.out.println(saludar(nombre));
         scan.close();
     }

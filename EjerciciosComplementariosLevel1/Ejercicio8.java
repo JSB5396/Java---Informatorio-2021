@@ -5,7 +5,6 @@ public class Ejercicio8 {
         Scanner intScan = new Scanner(System.in);
         String nyA, direccion, ciudad;
         int edad;
-
         System.out.println("Por favor escriba su nombre y apellido: ");
         nyA = strScan.nextLine();        
         System.out.println("Ahora su edad: ");
@@ -14,7 +13,6 @@ public class Ejercicio8 {
         direccion = strScan.nextLine();
         System.out.println("Y finalemente la ciudad donde vive: ");
         ciudad = strScan.nextLine();
-
         Persona persona1 = new Persona(nyA, edad, direccion, ciudad);
         System.out.print(persona1.toString());
         strScan.close();
@@ -25,7 +23,6 @@ public class Ejercicio8 {
         private Integer edad;
         private String direccion;
         private String ciudad;
-
         public Persona(String nyA, Integer edad, String direccion, String ciudad) {
             this.nyA = nyA;
             this.edad = edad;

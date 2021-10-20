@@ -4,7 +4,6 @@ public class Ejercicio4 {
         ArrayList<String> estudiantes = new ArrayList<String>();
         Collections.addAll(estudiantes, "Pedro", "Juan", "Ana", "Lisa", "Marcos", "Sofia", "Luis",
                                          "Maria", "Jose", "Florencia", "Agustin", "Liliana");
-
         List<String> cursoA = estudiantes.subList(0, 4);
         List<String> cursoB = estudiantes.subList(4, 8);
         List<String> cursoC = estudiantes.subList(8, 12);

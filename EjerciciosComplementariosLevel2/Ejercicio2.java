@@ -4,7 +4,6 @@ public class Ejercicio2 {
         ArrayList<Integer> numeros = new ArrayList<Integer>();
         Collections.addAll(numeros , 11, 7, 20, 36, 8);
         imprimirLista(numeros);
-        
         numeros.add(0,95);
         numeros.add(64);
         imprimirLista(numeros);
