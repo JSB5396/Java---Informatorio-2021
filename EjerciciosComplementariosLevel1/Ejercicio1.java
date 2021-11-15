@@ -7,7 +7,7 @@ public class Ejercicio1 {
         System.out.println(saludar(nombre));
         scan.close();
     }
-    public static String saludar(String nombre) {
+    private static String saludar(String nombre) {
         return "HOLA " + nombre;
     }
 }

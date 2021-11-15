@@ -8,7 +8,7 @@ public class Ejercicio2 {
         numeros.add(64);
         imprimirLista(numeros);
     }
-    public static void imprimirLista(ArrayList<Integer> lista) {
+    private static void imprimirLista(ArrayList<Integer> lista) {
         for (Integer i : lista) {
             System.out.println(i);
         }

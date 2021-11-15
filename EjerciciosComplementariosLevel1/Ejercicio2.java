@@ -14,19 +14,19 @@ public class Ejercicio2 {
                            nro1 + " % " + nro2 + " = " + modulo(nro1, nro2));
         scan.close();
     }
-    public static Integer sumar(int nro1, int nro2) {
+    private static Integer sumar(int nro1, int nro2) {
         return nro1 + nro2;
     }
-    public static Integer restar(int nro1, int nro2){
+    private static Integer restar(int nro1, int nro2){
         return nro1 - nro2;
     }
-    public static Integer multiplicar(int nro1, int nro2) {
+    private static Integer multiplicar(int nro1, int nro2) {
         return nro1 * nro2;
     }
-    public static Integer dividir(int nro1, int nro2) {
+    private static Integer dividir(int nro1, int nro2) {
         return nro1 / nro2;
     }
-    public static Integer modulo(int nro1, int nro2) {
+    private static Integer modulo(int nro1, int nro2) {
         return nro1 % nro2;
     }
 }

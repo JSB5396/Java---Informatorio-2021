@@ -10,7 +10,7 @@ public class Ejercicio7 {
                             + "\n" + fizzBuzzFuncion(nro1, nro2));
         scan.close();
     }   
-    public static ArrayList<String> fizzBuzzFuncion(int nro1,int nro2) {
+    private static ArrayList<String> fizzBuzzFuncion(int nro1,int nro2) {
         ArrayList<String> lista = new ArrayList<String>();
         for (int i=nro1; i < nro2; i++) {
             if ((i % 2==0) && (i % 3==0)) {

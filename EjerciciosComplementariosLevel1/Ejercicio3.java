@@ -7,7 +7,7 @@ public class Ejercicio3 {
         imprimirNum(numero);
         scan.close();
     }
-    public static void imprimirNum(int numero) {
+    private static void imprimirNum(int numero) {
         for (int i = 1; i <= numero; ++i) {
             for (int j = 1; j <= i; ++j) {
               System.out.print(j + " ");

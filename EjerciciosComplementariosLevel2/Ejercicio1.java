@@ -7,7 +7,7 @@ public class Ejercicio1 {
         imprimirRanking(favoritas);
         intScan.close();
     }
-    public static void imprimirRanking(int favoritas) {
+    private static void imprimirRanking(int favoritas) {
         ArrayList<String> lista = new ArrayList<String>();
         Scanner strScan = new Scanner(System.in);
         int sizeList = 1;

@@ -8,7 +8,7 @@ public class Ejercicio7 {
         System.out.println("El String en mayusculas es: " + convertirMayuscula(minuscula));
         scan.close();
     }
-    public static String convertirMayuscula(String minuscula) {
+    private static String convertirMayuscula(String minuscula) {
         int i = 0;
         minuscula += '\0';
         char letras = ' ';

@@ -10,7 +10,7 @@ public class Ejercicio5 {
         System.out.println(nro1 + " X " + nro2 + " = " + multiplicacion(nro1, nro2));
         scan.close();
     }
-    public static Integer multiplicacion(int nro1, int nro2) {
+    private static Integer multiplicacion(int nro1, int nro2) {
         int producto = 0;
         for (int i=1; i <= nro2; i++) {
             producto += nro1;

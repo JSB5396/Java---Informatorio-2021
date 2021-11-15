@@ -10,7 +10,7 @@ public class Ejercicio9 {
                             letraRepetida(cadena, letra) + " cantidad de veces");
         scan.close();
     }
-    public static Integer letraRepetida(String cadena, char letra) {
+    private static Integer letraRepetida(String cadena, char letra) {
         Integer cantidad = 0;
         char frase;
         for (int i=0; i < cadena.length(); i++) {

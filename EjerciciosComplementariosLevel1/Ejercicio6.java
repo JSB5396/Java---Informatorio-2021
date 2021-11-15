@@ -10,7 +10,7 @@ public class Ejercicio6 {
         System.out.println(nro1 + " elevedao a " + nro2 + " = " + potenciacion(nro1, nro2));
         scan.close();
     }
-    public static Integer potenciacion(int nro1, int nro2) {
+    private static Integer potenciacion(int nro1, int nro2) {
         Integer potencia = 1;
         for (int i=1; i <= nro2; i++) {
             potencia *= nro1;

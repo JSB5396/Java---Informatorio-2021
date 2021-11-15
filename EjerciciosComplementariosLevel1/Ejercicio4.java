@@ -8,7 +8,7 @@ public class Ejercicio4 {
         System.out.println("El factorial de " + numero + " es: " + factorial(numero));
         scan.close();
     }
-    public static BigInteger factorial(int numero) {
+    private static BigInteger factorial(int numero) {
         BigInteger resultado = BigInteger.ONE;
         BigInteger factoreo = BigInteger.valueOf(numero);
         if(numero == 1) {

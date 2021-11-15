@@ -17,7 +17,7 @@ public class Ejercicio5 {
                                     .sum();                      
         System.out.println(totales + "\n" + "Total Final: $ " + totalFinal);
     }
-    public static ArrayList<Integer> cargarEnLista(ArrayList<Integer> lista) {
+    private static ArrayList<Integer> cargarEnLista(ArrayList<Integer> lista) {
         Console consola = System.console();
         Integer datos;
         for (Integer i=1; i <= 5; i++) {
